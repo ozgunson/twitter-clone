@@ -1,0 +1,43 @@
+body {
+    padding-top: 50px;
+    padding-left: 620px;
+    padding-right: 670px;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 620px;
+    right: 670px;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar-home {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.top-icon {
+    height: 24px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 350px;
+    width: 320px;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}

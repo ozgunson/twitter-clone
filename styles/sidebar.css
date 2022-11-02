@@ -1,0 +1,111 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 350px;
+    width: 270px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.sidebar-icon {
+    height: 30px;
+    padding-right: 14px;
+}
+
+.sidebar-menu-twitter-icon {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sidebar-menu-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-menu-names {
+    font-size: 20px;
+}
+
+.sidebar-menu-button {
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+.tweetle-button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(0, 138, 218);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 14px 80px;
+}
+
+.tweetle-button:hover {
+    cursor: pointer;
+    background-color: rgb(3, 114, 179);
+}
+
+.sidebar-profile {
+    display: flex;
+    flex-direction: row;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    padding: 12px;
+}
+
+.profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.profile-url {
+    color: rgb(101, 119, 134);
+}
+
+.sidebar-profile-3dots {
+    margin-left: auto;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-linking {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 15px;
+}
+
+.sidebar-linking:hover {
+    background-color: rgb(216, 211, 211);
+    border: none;
+    border-radius: 30px;
+    transition: 0.2s;
+}
